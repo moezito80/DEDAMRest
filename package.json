@@ -1,0 +1,16 @@
+{
+  "name": "dedamrestapi",
+  "version": "1.0.0",
+  "description": "Ejercicio Postgrado RestAPI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moez Jelassi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "tedious": "^2.3.1"
+  }
+}
