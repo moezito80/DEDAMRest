@@ -7,6 +7,24 @@ app.use(bodyParser.json());
 
 
 
+
+var testunit = require('./unittests.js');
+
+
+app.get('/rest/testunitUser', function(req, res) {
+    testunit.TestCreateUser();
+    res.statusCode=200;
+    res.send('ok');
+})
+
+
+app.get('/rest/testunitGroup', function(req, res) {
+    testunit.TestCreateGroup();
+    res.statusCode=200;
+    res.send('ok');
+})
+
+
 //  Implementation GET Users
 
 
